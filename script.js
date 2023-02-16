@@ -14,7 +14,7 @@ function minCost(event) {
 	while(arr.length>1){
 		arr.splice(0,2);
 		arr.push(result);
-		cost += result.value;
+		cost += input.value;
 		arr.sort(function (a,b){
 			return a-b;
 		});
